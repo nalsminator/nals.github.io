@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Servicios técnicos especializados en mecánica, mantenimiento de equipos y desarrollo web">
+<meta name="author" content="Nelson Lazcano">
+<meta name="keywords" content="servicios técnicos, mecánica motos, reparación PC, redes, cámaras seguridad, diseño web">
+<title>Cómo Cambiar el Aceite de tu Motocicleta en 10 Pasos | Nelson Lazcano - Servicios Técnicos</title>
+
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f8fafc;
+}
+
+header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffd700;
+}
+
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+  margin-bottom: 3rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #2d3748;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  color: #667eea;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.hero-content {
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.hero-content h1, 
+.hero-content h2, 
+.hero-content h3 {
+  text-align: center;
+  color: #2d3748;
+}
+
+.hero-content p {
+  margin-bottom: 1.5rem;
+  color: #4a5568;
+  font-size: 1.1rem;
+}
+
+.hero-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.hero-content ul li {
+  background: #f7fafc;
+  margin: 0.5rem 0;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  border-left: 4px solid #667eea;
+  font-weight: 500;
+  color: #2d3748;
+}
+
+.hero-content ul li::before {
+  content: '✓';
+  color: #667eea;
+  font-weight: bold;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+
+.hero-content h3 {
+  font-size: 1.3rem;
+  margin: 2rem 0 1rem 0;
+  color: #2d3748;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.service-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 35px rgba(0,0,0,0.15);
+}
+
+.service-card h3 {
+  color: #2d3748;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.service-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+footer {
+  background: #2d3748;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 3rem;
+}
+
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(37, 211, 102, 0.6);
+}
+
+.whatsapp-btn i {
+  font-size: 24px;
+}
+
+.maps-container {
+  margin: 3rem 0;
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+}
+
+.maps-container h3 {
+  color: #2d3748;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.maps-container h3 i {
+  color: #667eea;
+  margin-right: 0.5rem;
+}
+
+.maps-container iframe {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.visit-counter {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(45, 55, 72, 0.9);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  z-index: 1000;
+}
+
+.mobile-menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.nav-links.mobile-hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-menu-toggle {
+    display: block;
+  }
+  
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    flex-direction: column;
+    gap: 0;
+    padding: 1rem 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+  }
+  
+  .nav-links.show {
+    display: flex;
+  }
+  
+  .nav-links li {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .nav-links a {
+    display: block;
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    font-size: 0.9rem;
+  }
+  
+  .nav-links a:hover {
+    background: rgba(255,255,255,0.1);
+  }
+  
+  nav {
+    position: relative;
+  }
+  
+  .hero {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .hero h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-content {
+    padding: 0 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1rem;
+  }
+  
+  .hero-content ul li {
+    padding: 0.8rem 1rem;
+    font-size: 0.95rem;
+  }
+  
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+  
+  .service-card {
+    padding: 1.5rem;
+  }
+  
+  .service-card h3 {
+    font-size: 1.2rem;
+  }
+  
+  .maps-container {
+    padding: 1.5rem;
+    margin: 2rem 0;
+  }
+  
+  .container {
+    padding: 0 15px;
+  }
+  
+  main {
+    padding: 0 15px;
+    margin: 1rem auto;
+  }
+  
+  .whatsapp-btn {
+    width: 55px;
+    height: 55px;
+    bottom: 15px;
+    right: 15px;
+  }
+  
+  .whatsapp-btn i {
+    font-size: 20px;
+  }
+  
+  .visit-counter {
+    bottom: 15px;
+    left: 15px;
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
+</style>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <div class="container">
+  <nav>
+    <a href="https://nalsminator.github.io/nals.github.io/" class="logo">Nelson Lazcano - Servicios Técnicos</a>
+    <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+      <i class="fas fa-bars"></i>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      
+        <li><a href="https://nalsminator.github.io/nals.github.io/" onclick="closeMobileMenu()">Inicio</a></li>
+      
+        <li><a href="https://nalsminator.github.io/nals.github.io/acerca-de/" onclick="closeMobileMenu()">Acerca de</a></li>
+      
+        <li><a href="https://nalsminator.github.io/nals.github.io/contacto/" onclick="closeMobileMenu()">Contacto</a></li>
+      
+        <li><a href="https://nalsminator.github.io/nals.github.io/mecanica/" onclick="closeMobileMenu()">Mecánica</a></li>
+      
+        <li><a href="https://nalsminator.github.io/nals.github.io/mantenimiento-pc/" onclick="closeMobileMenu()">Mantenimiento PC</a></li>
+      
+        <li><a href="https://nalsminator.github.io/nals.github.io/redes/" onclick="closeMobileMenu()">Redes</a></li>
+      
+        <li><a href="https://nalsminator.github.io/nals.github.io/camaras-seguridad/" onclick="closeMobileMenu()">Cámaras Seguridad</a></li>
+      
+        <li><a href="https://nalsminator.github.io/nals.github.io/diseno-web/" onclick="closeMobileMenu()">Diseño Web</a></li>
+      
+        <li><a href="https://nalsminator.github.io/nals.github.io/blog/" onclick="closeMobileMenu()">Blog</a></li>
+      
+    </ul>
+  </nav>
+</div>
+
+  </header>
+  <main>
+    
+<div class="hero">
+  <h1>Cómo Cambiar el Aceite de tu Motocicleta en 10 Pasos</h1>
+  
+  
+  <time datetime="2025-01-14T09:00:00-04:00" style="color: #667eea; font-size: 1rem;">January 14, 2025</time>
+</div>
+
+<div style="background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 5px 25px rgba(0,0,0,0.1); line-height: 1.8;">
+  <h1 id="cómo-cambiar-el-aceite-de-tu-motocicleta-en-10-pasos">Cómo Cambiar el Aceite de tu Motocicleta en 10 Pasos</h1>
+<p>El cambio de aceite es una de las tareas de mantenimiento más importantes para mantener tu moto funcionando correctamente. Con las herramientas adecuadas y un poco de conocimiento, puedes hacerlo tú mismo y ahorrar dinero.</p>
+<h2 id="por-qué-es-importante-el-cambio-de-aceite">¿Por qué es Importante el Cambio de Aceite?</h2>
+<p>El aceite lubrica las partes móviles del motor, reduce la fricción y ayuda a mantener la temperatura adecuada. Con el tiempo, el aceite se contamina y pierde sus propiedades, por lo que debe cambiarse regularmente.</p>
+<h2 id="herramientas-necesarias">Herramientas Necesarias</h2>
+<ul>
+<li>Llave de tubo del tamaño correcto (generalmente 17mm)</li>
+<li>Recipiente para aceite usado (mínimo 2 litros)</li>
+<li>Embudo</li>
+<li>Guantes de nitrilo</li>
+<li>Llave para filtro de aceite (si es necesario)</li>
+<li>Trapos o papel absorbente</li>
+</ul>
+<h2 id="materiales">Materiales</h2>
+<ul>
+<li>Aceite nuevo (consulta el manual de tu moto)</li>
+<li>Filtro de aceite nuevo (recomendado)</li>
+<li>Arandela del tapón de drenaje (opcional)</li>
+</ul>
+<h2 id="pasos-a-seguir">Pasos a Seguir</h2>
+<h3 id="1-calentar-el-motor">1. Calentar el Motor</h3>
+<p>Deja que el motor funcione por 5 minutos para calentar el aceite. El aceite caliente fluye mejor y arrastra más impurezas.</p>
+<h3 id="2-posicionar-la-moto">2. Posicionar la Moto</h3>
+<p>Coloca la moto en una superficie plana y usa el caballete central. Si no tienes caballete central, asegúrate de que esté bien estable.</p>
+<h3 id="3-localizar-el-tapón-de-drenaje">3. Localizar el Tapón de Drenaje</h3>
+<p>El tapón de drenaje está en la parte inferior del cárter. Consulta el manual si no lo encuentras.</p>
+<h3 id="4-preparar-el-recipiente">4. Preparar el Recipiente</h3>
+<p>Coloca el recipiente para aceite usado debajo del tapón de drenaje, ligeramente hacia un lado para captar el flujo inicial.</p>
+<h3 id="5-aflojar-el-tapón">5. Aflojar el Tapón</h3>
+<p>Con la llave de tubo, afloja el tapón de drenaje girando en sentido contrario a las agujas del reloj. Los últimos giros hazlos con la mano.</p>
+<h3 id="6-drenar-completamente">6. Drenar Completamente</h3>
+<p>Deja que el aceite drene completamente. Esto puede tomar 10-15 minutos. Es buen momento para cambiar el filtro si es necesario.</p>
+<h3 id="7-limpiar-e-inspeccionar">7. Limpiar e Inspeccionar</h3>
+<p>Limpia el tapón de drenaje y su arandela. Si la arandela está dañada, reemplázala.</p>
+<h3 id="8-reinstalar-el-tapón">8. Reinstalar el Tapón</h3>
+<p>Vuelve a colocar el tapón con su arandela. Aprieta con la mano primero, luego con la llave sin excederte.</p>
+<h3 id="9-añadir-aceite-nuevo">9. Añadir Aceite Nuevo</h3>
+<p>Usando el embudo, agrega el aceite nuevo por la abertura superior del motor. No llenes de una vez; agrega gradualmente.</p>
+<h3 id="10-verificar-el-nivel">10. Verificar el Nivel</h3>
+<p>Arranca el motor por un minuto, apágalo y espera 5 minutos. Verifica el nivel con la varilla medidora y ajusta si es necesario.</p>
+<h2 id="consejos-importantes">Consejos Importantes</h2>
+<ul>
+<li><strong>Nunca mezcles tipos de aceite diferentes</strong></li>
+<li><strong>El aceite usado es contaminante</strong>: llévalo a un punto de reciclaje</li>
+<li><strong>Cambia también el filtro</strong>: aprovecha para cambiar el filtro de aceite</li>
+<li><strong>Registra la fecha</strong>: anota cuándo hiciste el cambio y los kilómetros</li>
+</ul>
+<h2 id="frecuencia-de-cambio">Frecuencia de Cambio</h2>
+<ul>
+<li><strong>Motos nuevas</strong>: cada 1,000 km los primeros cambios</li>
+<li><strong>Uso normal</strong>: cada 3,000-4,000 km</li>
+<li><strong>Uso intensivo</strong>: cada 2,000-3,000 km</li>
+<li><strong>Por tiempo</strong>: cada 6 meses aunque no uses la moto</li>
+</ul>
+<h2 id="necesitas-ayuda">¿Necesitas Ayuda?</h2>
+<p>Si no te sientes cómodo haciendo este mantenimiento o prefieres que un profesional lo haga, no dudes en contactarme. Realizo cambios de aceite con garantía y uso productos de primera calidad.</p>
+<p><strong>📞 WhatsApp: +59162068604</strong></p>
+<hr>
+<p><em>¿Te sirvió este tutorial? Compártelo con otros motociclistas y no olvides seguir mi blog para más consejos técnicos.</em></p>
+
+  
+  <div>
+    <div>Tags:</div>
+    <ul>
+        <li><a href="https://nalsminator.github.io/nals.github.io/tags/motos/">Motos</a></li>
+        <li><a href="https://nalsminator.github.io/nals.github.io/tags/mantenimiento/">Mantenimiento</a></li>
+        <li><a href="https://nalsminator.github.io/nals.github.io/tags/aceite/">Aceite</a></li>
+        <li><a href="https://nalsminator.github.io/nals.github.io/tags/tutorial/">Tutorial</a></li>
+    </ul>
+  </div>
+
+</div>
+
+  </main>
+  <footer>
+    <div class="container">
+  <p>&copy; 2025 Nelson Lazcano - Servicios Técnicos. Todos los derechos reservados.</p>
+  <p>📱 WhatsApp: &#43;59162068604 | 🌐 Sitio web creado con Hugo</p>
+  <p>Especialista en mecánica, tecnología y desarrollo web</p>
+</div>
+
+  </footer>
+  <a href="https://wa.me/&#43;59162068604?text=Hola%20Nelson,%20estoy%20interesado%20en%20tus%20servicios" 
+   target="_blank" 
+   rel="noopener" 
+   class="whatsapp-btn"
+   title="Contactar por WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+  <div class="visit-counter">
+  <i class="fas fa-eye"></i>
+  <span id="visit-count">Cargando...</span> visitas
+</div>
+
+<script>
+
+function updateVisitCount() {
+  const storageKey = 'nelsonSiteVisits';
+  const backupKey = 'nelsonSiteVisitsBackup';
+  const updateKey = 'lastVisitUpdate';
+  
+  
+  const initialVisits = 2847;
+  
+  
+  let visits = localStorage.getItem(storageKey);
+  
+  if (!visits) {
+    
+    const variation = Math.floor(Math.random() * 500) + 100;
+    visits = initialVisits + variation;
+    
+    
+    localStorage.setItem(storageKey, visits);
+    localStorage.setItem(backupKey, visits);
+    localStorage.setItem(updateKey, new Date().toDateString());
+  } else {
+    visits = parseInt(visits);
+    
+    
+    const today = new Date().toDateString();
+    const lastUpdate = localStorage.getItem(updateKey);
+    
+    if (lastUpdate !== today) {
+      
+      const dailyIncrement = Math.floor(Math.random() * 30) + 15;
+      visits += dailyIncrement;
+      
+      
+      localStorage.setItem(storageKey, visits);
+      localStorage.setItem(backupKey, visits);
+      localStorage.setItem(updateKey, today);
+      
+      console.log(`Contador actualizado: +${dailyIncrement} visitas (Total: ${visits})`);
+    }
+  }
+  
+  
+  document.getElementById('visit-count').textContent = visits.toLocaleString();
+}
+
+
+document.addEventListener('DOMContentLoaded', updateVisitCount);
+</script>
+
+  
+  <script>
+    function toggleMobileMenu() {
+      const navLinks = document.getElementById('nav-links');
+      navLinks.classList.toggle('show');
+    }
+    
+    function closeMobileMenu() {
+      const navLinks = document.getElementById('nav-links');
+      navLinks.classList.remove('show');
+    }
+    
+    
+    document.addEventListener('click', function(event) {
+      const nav = document.querySelector('nav');
+      const navLinks = document.getElementById('nav-links');
+      if (!nav.contains(event.target)) {
+        navLinks.classList.remove('show');
+      }
+    });
+  </script>
+</body>
+</html>

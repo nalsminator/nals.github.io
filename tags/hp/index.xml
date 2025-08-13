@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hp on Nelson Lazcano - Servicios Técnicos</title>
+    <link>https://nalsminator.github.io/nals.github.io/tags/hp/</link>
+    <description>Recent content in Hp on Nelson Lazcano - Servicios Técnicos</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 13 Jan 2025 14:30:00 -0400</lastBuildDate>
+    <atom:link href="https://nalsminator.github.io/nals.github.io/tags/hp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Caso Real: Laptop HP que se Apagaba por Sobrecalentamiento</title>
+      <link>https://nalsminator.github.io/nals.github.io/blog/caso-laptop-sobrecalentada/</link>
+      <pubDate>Mon, 13 Jan 2025 14:30:00 -0400</pubDate>
+      <guid>https://nalsminator.github.io/nals.github.io/blog/caso-laptop-sobrecalentada/</guid>
+      <description>Historia real de cómo diagnostiqué y solucioné una laptop HP Pavilion que se apagaba cada 10 minutos por sobrecalentamiento extremo.</description>
+    </item>
+  </channel>
+</rss>
